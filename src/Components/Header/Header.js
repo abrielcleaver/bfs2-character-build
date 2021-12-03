@@ -2,6 +2,5 @@ import './Header.css';
 import React from 'react';
 
 export default function Header() {
-    return <header>Build App</header>;
-
+  return <header>Build App</header>;
 }

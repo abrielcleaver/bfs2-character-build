@@ -14,44 +14,43 @@ export default function Main() {
   const [top, setTop] = useState();
   const [bottom, setBottom] = useState();
 
-
   return (
     <main>
-      <Display 
-      {...{
-        headCount,
-        setHeadCount,
-        topCount,
-        setTopCount,
-        bottomCount,
-        setBottomCount,
-        catchphrase,
-        setCatchphrase,
-        head,
-        setHead,
-        top,
-        setTop,
-        bottom,
-        setBottom
-      }} 
+      <Display
+        {...{
+          headCount,
+          setHeadCount,
+          topCount,
+          setTopCount,
+          bottomCount,
+          setBottomCount,
+          catchphrase,
+          setCatchphrase,
+          head,
+          setHead,
+          top,
+          setTop,
+          bottom,
+          setBottom,
+        }}
       />
-      <Editor 
-      {...{
-        headCount,
-        setHeadCount,
-        topCount,
-        setTopCount,
-        bottomCount,
-        setBottomCount,
-        catchphrase,
-        setCatchphrase,
-        head,
-        setHead,
-        top,
-        setTop,
-        bottom,
-        setBottom
-      }} 
+      <Editor
+        {...{
+          headCount,
+          setHeadCount,
+          topCount,
+          setTopCount,
+          bottomCount,
+          setBottomCount,
+          catchphrase,
+          setCatchphrase,
+          head,
+          setHead,
+          top,
+          setTop,
+          bottom,
+          setBottom,
+        }}
       />
     </main>
   );
