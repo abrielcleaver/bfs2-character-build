@@ -17,6 +17,11 @@
     - Deployed on Netlify, CI Passing	2
 
 
+[ ] create files/folders
+[ ] import/export functions, css, etc
+[ ] add inputs and props
+[ ] 
+
 # Alchemy React Base Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
