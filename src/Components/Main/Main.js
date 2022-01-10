@@ -7,11 +7,11 @@ import Display from '../Display/Display';
 
 export default function Main() {
   const [headCount, setHeadCount] = useState(0);
-  const [topCount, setTopCount] = useState(0);
+  const [middleCount, setMiddleCount] = useState(0);
   const [bottomCount, setBottomCount] = useState(0);
   const [catchphrase, setCatchphrase] = useState();
   const [head, setHead] = useState();
-  const [top, setTop] = useState();
+  const [middle, setMiddle] = useState();
   const [bottom, setBottom] = useState();
 
   return (
@@ -20,16 +20,16 @@ export default function Main() {
         {...{
           headCount,
           setHeadCount,
-          topCount,
-          setTopCount,
+          middleCount,
+          setMiddleCount,
           bottomCount,
           setBottomCount,
           catchphrase,
           setCatchphrase,
           head,
           setHead,
-          top,
-          setTop,
+          middle,
+          setMiddle,
           bottom,
           setBottom,
         }}
@@ -38,16 +38,16 @@ export default function Main() {
         {...{
           headCount,
           setHeadCount,
-          topCount,
-          setTopCount,
+          middleCount,
+          setMiddleCount,
           bottomCount,
           setBottomCount,
           catchphrase,
           setCatchphrase,
           head,
           setHead,
-          top,
-          setTop,
+          middle,
+          setMiddle,
           bottom,
           setBottom,
         }}

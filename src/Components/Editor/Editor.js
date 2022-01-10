@@ -6,9 +6,9 @@ export default function Editor(props) {
     props.setHead(e.target.value);
     props.setHeadCount((prevState) => prevState + 1);
   };
-  const handleTop = (e) => {
-    props.setTop(e.target.value);
-    props.setTopCount((prevState) => prevState + 1);
+  const handleMiddle = (e) => {
+    props.setMiddle(e.target.value);
+    props.setMiddleCount((prevState) => prevState + 1);
   };
   const handleBottom = (e) => {
     props.setBottom(e.target.value);
@@ -23,13 +23,13 @@ export default function Editor(props) {
         <option value="">-</option>
       </select>
       <label>head</label>
-      <select value="props.top" onChange={handleTop}>
+      <select value="props.middle" onChange={handleMiddle}>
         <option value="">-</option>
         <option value="">-</option>
         <option value="">-</option>
         <option value="">-</option>
       </select>
-      <label>top</label>
+      <label>middle</label>
       <select value="props.bottom" onChange={handleBottom}>
         <option value="">-</option>
         <option value="">-</option>
