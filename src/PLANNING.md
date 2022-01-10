@@ -1,6 +1,7 @@
 # Build From Scratch #2: Character Build
-- Due 
-- Netlify link 
+
+- Due
+- Netlify link
 
 ### Description
 
@@ -15,13 +16,14 @@
 
 ### Rubric
 
-    - Users are able to update the characters features (2 points per feature)	6
-    - Users are able to add catchphrases	4
-    - App is separated into presentational / container components that pass state as props	4
-    - Snapshot tests	4
-    - Deployed on Netlify, CI Passing	2
+    - [ ] Users are able to update the characters feature - (2 points per feature) 6
+    - [ ] Users are able to add catchphrases- 4
+    - [ ] App is separated into presentational / container components that pass state as props - 4
+    - [ ] Snapshot tests - 4
+    - [ ] Deployed on Netlify, CI Passing - 2
 
-[ ] create files/folders
-[ ] import/export functions, css, etc
-[ ] add inputs and props
-[ ]
+### NEEDS TO BE COMPLETED
+
+- [x] create files/folders
+  - [x] /assets in /public
+    - [x] add images
