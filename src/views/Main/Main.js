@@ -1,9 +1,9 @@
 import './Main.css';
 // import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-import Editor from '../Editor/Editor';
-import Display from '../Display/Display';
+import Editor from '../../Components/Editor/Editor';
+import Display from '../../Components/Display/Display';
 
 export default function Main() {
   const [headCount, setHeadCount] = useState(0);
