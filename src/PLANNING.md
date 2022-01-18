@@ -1,6 +1,6 @@
 # Build From Scratch #2: Character Build
 
-- Due
+- Due by Jan 18
 - Netlify link
 
 ### Description
@@ -16,9 +16,9 @@
 
 ### Rubric
 
-    - [ ] Users are able to update the characters feature - (2 points per feature) 6
+    - [x] Users are able to update the characters feature - (2 points per feature) 6
     - [ ] Users are able to add catchphrases- 4
-    - [ ] App is separated into presentational / container components that pass state as props - 4
+    - [x] App is separated into presentational / container components that pass state as props - 4
     - [ ] Snapshot tests - 4
     - [ ] Deployed on Netlify, CI Passing - 2
 
