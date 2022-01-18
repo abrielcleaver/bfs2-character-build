@@ -2,5 +2,5 @@ import './Header.css';
 import React from 'react';
 
 export default function Header() {
-  return <header>Character Build App</header>;
+  return <header>Build Your Own Character</header>;
 }
