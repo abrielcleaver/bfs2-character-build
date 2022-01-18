@@ -9,10 +9,11 @@ export default function Main() {
   const [headCount, setHeadCount] = useState(0);
   const [middleCount, setMiddleCount] = useState(0);
   const [bottomCount, setBottomCount] = useState(0);
-  const [catchphrase, setCatchphrase] = useState();
-  const [head, setHead] = useState();
-  const [middle, setMiddle] = useState();
-  const [bottom, setBottom] = useState();
+  const [setCatchphrase] = useState();
+  const [input, setInput] = useState();
+  const [head, setHead] = useState('head');
+  const [middle, setMiddle] = useState('middle');
+  const [bottom, setBottom] = useState('bottom');
 
   return (
     <main>
@@ -24,8 +25,9 @@ export default function Main() {
           setMiddleCount,
           bottomCount,
           setBottomCount,
-          catchphrase,
           setCatchphrase,
+          input,
+          setInput,
           head,
           setHead,
           middle,
@@ -42,8 +44,9 @@ export default function Main() {
           setMiddleCount,
           bottomCount,
           setBottomCount,
-          catchphrase,
           setCatchphrase,
+          input,
+          setInput,
           head,
           setHead,
           middle,

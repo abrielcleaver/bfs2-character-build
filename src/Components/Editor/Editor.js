@@ -14,36 +14,43 @@ export default function Editor(props) {
     props.setBottom(e.target.value);
     props.setBottomCount((prevState) => prevState + 1);
   };
+  const handleButton = () => {
+    props.setCatchphrase((prevState) => [...prevState]);
+  };
   return (
     <div className="editor">
-      <select value="props.head" onChange={handleHead}>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-      </select>
-      <label>head</label>
-      <select value="props.middle" onChange={handleMiddle}>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-      </select>
-      <label>middle</label>
-      <select value="props.bottom" onChange={handleBottom}>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-      </select>
-      <label>bottoms</label>
-      <select value="props.catchphrase">
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-        <option value="">-</option>
-      </select>
-      <label>catchphrase</label>
+      <div>
+        <select value={props.head} onChange={handleHead}>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+        </select>
+        <label>head</label>
+      </div>
+      <div>
+        <select value={props.middle} onChange={handleMiddle}>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+        </select>
+        <label>middle</label>
+      </div>
+      <div>
+        <select value={props.bottom} onChange={handleBottom}>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+          <option value="">-</option>
+        </select>
+        <label>bottoms</label>
+      </div>
+      <div>
+        <label>Add a catchphrase: </label>
+        <input type="text" value={props.input} onChange={(e) => props.setInput(e.target.value)} />
+      </div>
+      <button onClick={handleButton}>Submit</button>
     </div>
   );
 }
